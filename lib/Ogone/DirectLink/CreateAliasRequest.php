@@ -16,8 +16,8 @@ use Ogone\ShaComposer\ShaComposer;
 class CreateAliasRequest extends AbstractRequest
 {
 
-    const TEST = "https://secure.ogone.com/ncol/test/alias_gateway_utf8.asp";
-    const PRODUCTION = "https://secure.ogone.com/ncol/prod/alias_gateway_utf8.asp";
+    const TEST = "https://secure.paypage.be/ncol/test/alias_gateway_utf8.asp";
+    const PRODUCTION = "https://secure.paypage.be/ncol/prod/alias_gateway_utf8.asp";
 
     public function __construct(ShaComposer $shaComposer)
     {
